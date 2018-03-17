@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+          <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">Name</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control formInput" id="formName" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-3 col-form-label">Last Name</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control formInput" id="formLastName" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">Age</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control formInput" id="formAge" placeholder="Age">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">Story</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control formInput" id="formStory" placeholder="Story">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
+                  </div>
+                </div>
+              </form>
+              <div class="form-group row">
+                  <div class="offset-sm-2 col-sm-10">
+                    <button class="btn btn-primary" id="showUsers">Show all users</button>
+                  </div>
+                </div>
+            </div>
+      </div>
+      <div class="col-md-5">
+        <div>Name: </div><div class="output" id="nameOutput"> </div>
+        <div>Last Name:</div><div class="output"id="lastNameOutput"> </div>
+        <div>Age: </div><div class="output"id="ageOutput"></div>
+        <div>Story: </div><div class="output"id="storyOutput"></div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
